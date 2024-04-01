@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/masque_kukeri.css">
+    <title>Document</title>
+</head>
+<body>
+<nav class="bg-dark-800 py-4" style="position: fixed;">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html">
+        <img src="img/drapeau_bulgarie.svg" alt="" class="drapeau_bulgarie">
+      </a>
+      <div>
+        <ul class="flex space-x-7">
+          <li><a href="accueil.html" class="text-white hover:text-gray-400">Accueil</a></li>
+          <li><a href="bulgarie.html" class="text-white hover:text-gray-400">Bulgarie</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!--div class="sketchfab-embed-wrapper" id="container"> 
+      <iframe title="Mask_Kukeri" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="480" height="480" src="https://sketchfab.com/models/0ee5fe24a94249229f905198c5bd3e31/embed?autostart=1"> </iframe> 
+    </div -->
+
+
+    <div class="modal-container">
+
+      <div class="overlay modal-trigger"></div>
+     
+      <div class="modal" role="dialog" aria-labelledby="modalTitle" aria-describedby="dialogDesc">
+        <button 
+        aria-label="close modal"
+        class="close-modal modal-trigger">X</button>
+        <h1 id="modalTitle">Le saviez-vous ?</h1>
+        <p id="dialogDesc">Le festival des Kukeri en Bulgarie est une tradition millénaire où des hommes portent des costumes effrayants pour chasser les mauvais esprits et assurer la fertilité des terres, symbolisant ainsi la connexion profonde entre les communautés, la nature et la tradition dans les Balkans.</p>
+      </div>
+    
+    </div>
+
+      <button class="modal-btn modal-trigger">Voir plus</button>
+
+
+
+      
+      <script type="module" src="masque_kukeri.js"></script>
+      <script type="module" src="index.js"></script>
+      
+      
+</body>
+</html>

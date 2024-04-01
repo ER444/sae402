@@ -750,3 +750,12 @@ ul{
   }
 
 
+  #threejs-container {
+    position: fixed;
+    top: 50%; /* Centrage vertical */
+    left: 50%; /* Centrage horizontal */
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Assurez-vous que le rendu Three.js est en arrière-plan */
+    
+}
+
